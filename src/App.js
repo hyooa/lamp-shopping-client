@@ -13,7 +13,8 @@ function App() {
       <Routes>
                           {/* 컴포넌트 이름으로 부르기 */}
         <Route path="/" element={<MainPage />} />
-        <Route path="/products" element={<ProductPage />} />
+                          {/* id 로 받겠다 */}
+        <Route path="/product/:id" element={<ProductPage />} />
         <Route path="/upload" element={<UploadPage />} />
       </Routes>
       <Footer></Footer>
