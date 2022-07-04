@@ -27,6 +27,7 @@ table {
 /* 공통 */
 #header {
   height: 64px;
+  line-height: 2.2;
 }
 .inner {
     width: 1200px;
